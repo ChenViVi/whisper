@@ -1,0 +1,4 @@
+/.idea
+*.iml
+build
+/1_server/whisper/.idea

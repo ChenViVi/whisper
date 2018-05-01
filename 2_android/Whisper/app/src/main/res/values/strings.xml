@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Whisper</string>
+    <string name="ttWrite">吐槽</string>
+    <string name="ttReWrite">编辑</string>
+    <string name="ttType">修改分类名称</string>
+    <string name="ttSetting">设置</string>
+    <string name="tvSelect">选择已有分类：</string>
+    <string name="tvCreate">创建新分类：</string>
+    <string name="tvDelete">删除</string>
+    <string name="tvSetting">设置</string>
+    <string name="tvEdit">编辑</string>
+    <string name="hintUrl">请输入服务端地址</string>
+    <string name="tabAll">全部</string>
+    <string name="tabType">分类</string>
+</resources>
