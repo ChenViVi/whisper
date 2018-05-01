@@ -8,7 +8,7 @@
 
 ![](3_sreenshots/web.png)
 
-![](3_sreenshots\android.png)
+![](3_sreenshots/android.png)
 
 
 
