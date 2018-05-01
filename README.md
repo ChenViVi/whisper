@@ -8,7 +8,7 @@
 
 ![](3_sreenshots/web.png)
 
-![](C:\AAA\2_Develop\4_Server\wamp64\www\whisper\3_sreenshots\android.png)
+![](3_sreenshots\android.png)
 
 
 
