@@ -28,6 +28,8 @@ public class ArticleActivity extends BaseRecyclerViewActivity<Article.DataBean,A
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setSupportActionBar(R.id.toolbar);
+        setDisplayHomeAsUpEnabled(true);
         type = (Type.DataBean) getIntent().getSerializableExtra("type");
         setTitle(type.getName());
         new RequestMaker<Article>(activity, ServiceFactory.getRequestService().article_get(type.getId())){

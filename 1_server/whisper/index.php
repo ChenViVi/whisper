@@ -44,12 +44,12 @@ $mysqli->set_charset("utf8");?>
                     array_push($types,$row['id']);?>
                 <li class="tab"><a href="#tab<?php echo $row['id']?>" class="white-text active" style="text-transform: none !important"><?php echo $row['name']?></a></li>
                 <?php }?>
-                <li class="indicator white" style="right: 1460px; left: 0px;"></li>
+                <li class="indicator white" style="right: 186px; left: 68px;"></li>
             </ul>
         </div>
     </nav>
     <?php for ($i = 0; $i < count($types); $i++){
-        $stmt=$mysqli->prepare("SELECT * FROM article WHERE type_id = ? ORDER BY id");
+        $stmt=$mysqli->prepare("SELECT * FROM article WHERE type_id = ? ORDER BY id DESC");
         $stmt->bind_param('i', $types[$i]);
         $stmt->execute();
         $result = $stmt->get_result();?>
