@@ -8,9 +8,7 @@
 
 ![](3_sreenshots/web.png)
 
-![](3_sreenshots/android.png)
-
-
+<img src="3_sreenshots/android.png" width="40%">
 
 ## 食用方法（真的会有人用？感觉是我自作多情）
 下载[whisper.zip](https://github.com/ChenViVi/whisper/releases/download/0.0.1/whisper.zip)到你的网站目录并解压，新建数据库并导入`whisper.sql`，然后在`config.php`中配置数据库和ip白名单（填入你手机的ip），例如：
